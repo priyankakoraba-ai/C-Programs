@@ -1,0 +1,15 @@
+#include "foo.h"
+#include <iostream>
+#include<graphics.h>
+int main()
+{
+    int gd=DETECT, gm;
+    initgraph(&gd, &gm, (char*)"");
+    setcolor(WHITE);
+    line(150, 150, 450, 150);
+    std::cout << "Inside main function.." << std::endl;
+    //fun();
+    getch();
+    closegraph();
+    return 0;
+}

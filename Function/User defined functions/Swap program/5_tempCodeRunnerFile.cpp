@@ -1,0 +1,1 @@
+cout<<"The copied string is: "<<d<<endl;

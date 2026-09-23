@@ -1,0 +1,22 @@
+/*#include <iostream>
+int main()
+{
+	using namespace std;
+
+	char name[20];       //declaring string 'name'
+
+	cin >> name; //taking string input
+	cout << name << endl; //printing string
+	return 0;
+}*/
+#include <iostream>
+int main()
+{
+	using namespace std;
+
+	char name[20];       //declaring string 'name'
+
+	cin.getline(name, 20); //taking string input
+	cout << name << endl; //printing string
+	return 0;
+}
